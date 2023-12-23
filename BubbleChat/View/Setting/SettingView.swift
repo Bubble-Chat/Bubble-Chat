@@ -1,8 +1,15 @@
-//
-//  SettingView.swift
-//  BubbleChat
-//
-//  Created by 조근호 on 11/29/23.
-//
+import SwiftUI
 
-import Foundation
+struct SettingView: View {
+    var body: some View {
+        HStack {
+            Text("설정")
+                .font(.title2)
+                .padding()
+        }
+    }
+}
+
+#Preview {
+    MainView()
+}
